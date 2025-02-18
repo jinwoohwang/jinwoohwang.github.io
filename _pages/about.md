@@ -5,7 +5,7 @@ title: About
 permalink: /about.html
 ---
 
-## dathwan@localhost:~$ whoami
+## dathwang@localhost:~$ whoami
 <img src="/images/about-image.gif" alt="About homepage image" style="width: 290px; border-radius: 10px;" align="right">
 My name is Dat Hoang, a simple person striving to be my best in Reverse Engineering.
 
