@@ -1,9 +1,9 @@
 ---
 layout: single
-title: "Protostar - Stack Challenges"
-description: "Solutions for Stack 0-7"
-date: 2025-03-02
-draft: false
+title: "Protostar - Stack Challenges 0-7"
+toc: true
+toc_label: "Table of Contents"
+toc_sticky: true
 ---
 
 Protostar is one of the first learning resources about binary exploitation I fell in love with. It gave me a strong foundation for reverse engineering by covering various topics, including Stack Buffer Overflow, Format String Vulnerability, Heap Exploitation and more. In this blog, I will share the techniques and knowledge I have gained while working on **the Stack challenges**. Hopefully, it will help (or at least entertain) anyone who's into this kind of stuff too!
