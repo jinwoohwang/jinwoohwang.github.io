@@ -6,9 +6,9 @@ toc_label: "Table of Contents"
 toc_sticky: true
 ---
 
-Protostar is the first learning resources about binary exploitation I fell in love with. It gave me a strong foundation for reverse engineering by covering various topics, including Stack Buffer Overflow, Format String Vulnerability, Heap Exploitation and more. 
-
 This blog marks a significant milestone in my reversing journey since I'm completely new to this. Hopefully, it will help (or at least entertain) anyone who's into this kind of stuff too!
+
+Protostar is the first learning resources about binary exploitation I fell in love with. It gave me a strong foundation for reverse engineering by covering various topics, including Stack Buffer Overflow, Format String Vulnerability, Heap Exploitation and more. 
 
 ## Stack 0
 Description:
