@@ -4,8 +4,6 @@ title: "Protostar - Stack Challenges 0-7"
 toc: true
 toc_label: "Table of Contents"
 toc_sticky: true
-tags: [wargame, pwnable, reverse]
-categories: [writeup]
 ---
 
 This blog marks a significant milestone (March 2, 2025) in my reversing journey since I'm completely new to this. Hopefully, it will help (or at least entertain) anyone who's into this kind of stuff too!
