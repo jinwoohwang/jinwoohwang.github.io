@@ -4,6 +4,8 @@ title: "Protostar - Stack Challenges 0-7"
 toc: true
 toc_label: "Table of Contents"
 toc_sticky: true
+tags: [wargame, pwnable, reverse]
+categories: [writeup]
 ---
 
 This blog marks a significant milestone (March 2, 2025) in my reversing journey since I'm completely new to this. Hopefully, it will help (or at least entertain) anyone who's into this kind of stuff too!
@@ -791,7 +793,7 @@ The address `0xb7eadc76` has been overwritten with `0x54545454`, where **0x54** 
 
 We know that **0x54545454** is the address that we can overwrite to redirect our program. But where should our program jump to? Probably the ***"STACK"***, and I chose `0xbffff7b0` as the jump target.
 
-To make sure my shellcode is working, I will add some **NOPs** before the shellcode and **\xcc (int3)** for debugging. Here is the [shellcode](https://shell-storm.org/shellcode/files/shellcode-575.html) I'm using:
+To make sure my shellcode is working, I will add some **NOPs** before the shellcode and **\xcc (int3)** for debugging. Here is the <a href="https://shell-storm.org/shellcode/files/shellcode-575.html" target="_blank">link to shellcode</a> I'm using:
 
 ``` shell
 \x6a\x0b\x58\x99\x52\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x31\xc9\xcd\x80
@@ -1045,7 +1047,7 @@ Here is a clearer representation:
                                             └── Second ret pops this value & jumps to our shellcode
 ```
 
-This is my script, and the link to the shellcode that I use => [shellcode](https://shell-storm.org/shellcode/files/shellcode-575.html).
+This is my script, and the link to the shellcode that I use => <a href="https://shell-storm.org/shellcode/files/shellcode-575.html" target="_blank">shellcode</a>
 
 ``` python
 import struct
